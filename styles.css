@@ -1,17 +1,43 @@
 body {
     padding: 0;
     margin: 0%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
     color: black;}
 div.navbar{
     box-sizing: border-box;
+    text-align: center;
     height: 45px;
-    padding: 0 20% 0;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
     border: none;
     background-color: rgb(37, 37, 37);
     color: rgb(226, 226, 226);}
 #navbar li{
     display: inline;
     margin: 2%;
-    }
+    padding: 15px 0 0 0;}
+div.anuncio{
+    box-sizing: border-box;
+    text-align: center;
+    height: 45px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: rgba(193, 225, 240, 0.787);
+    color: rgb(0, 0, 0);}
+#anuncio p{
+    margin: 0px;
+    padding: 15px 0 0 0;}
+div.block1{
+    position: relative;
+    display: inline-block;}
+div.block1_texto{
+    box-sizing: border-box;
+    position: absolute;
+    text-align: center;}
+h1{
+    text-align: center;}
+h2{
+    text-align: center;}
+h3{
+    text-align: center;}
